@@ -1,0 +1,30 @@
+
+    std::string s0 = "String with \"quotes\" and \\ backslash";
+
+    std::string s1 = "Hello World";
+    std::string s2 = "";
+    std::string s3 = "Line1\nLine2";
+    std::string s4 = "Quote: \" and backslash: \\";
+    std::string s5 = "Hex: \x41 \x42 \x43";
+    std::string s6 = "Octal: \101\102\103";
+    std::string s7 = "Unicode: \u0041 \u03A9";
+    std::string s8 = "With\ttabs\tand\fformfeeds";
+
+    char c1 = 'a';
+    char c2 = '\n';
+    char c3 = '\'';
+    char c4 = '\\';
+    char c5 = '\x41';
+    char c6 = '\101';
+    char16_t cu = u'\u03A9';
+
+    std::string bad1 = "This is bad;
+    char bad2 = 'x;
+    char bad3 = 'ab';
+    char bad4 = '';
+    std::string bad5 = "Hello\qWorld";
+    char bad6 = '\q';
+
+    return 0;
+
+

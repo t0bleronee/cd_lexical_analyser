@@ -1,0 +1,33 @@
+
+    double hf1 = 0x1.1p4;
+    double hf2 = 0x1p0;
+    double hf3 = 0xABC.DEFp+10;
+    float hf4 = 0X1.8P+2f;
+    long double hf5 = 0x1.fp-2L;
+    double hf_err1 = 0x1.1;          
+    double hf_err2 = 0x.p2;          
+    double hf_err3 = 0x1.1p;         
+    double hf_err4 = 0x1.1p+;        
+    double hf_err5 = 0xG.1p2;        
+
+    int hex1 = 0x1;
+    unsigned hex2 = 0XFFu;
+    long hex3 = 0x10L;
+    unsigned long long hex4 = 0xABCD1234ULL;
+    int hex_err1 = 0x;               
+    int hex_err2 = 0x1G;             
+
+    int oct1 = 07;
+    unsigned oct2 = 077U;
+    long oct3 = 0123456l;
+    unsigned long long oct4 = 0777777777777ull;
+    int oct_err1 = 08;               
+    int oct_err2 = 0;                
+
+    int bin1 = 0b1010;
+    unsigned bin2 = 0B1100U;
+    long bin3 = 0b1111l;
+    unsigned long long bin4 = 0B101010ULL;
+    int bin_err1 = 0b;               
+    int bin_err2 = 0b102;            
+

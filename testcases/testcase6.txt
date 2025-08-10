@@ -1,0 +1,36 @@
+#include <iostream> 
+
+    int x = 10;
+    x += 5;
+    if (x >= 15 && x != 0) {
+        std::cout << x << std::endl;
+    }
+    a...b; 
+    ::x;
+
+    // This is a normal single-line comment
+
+    /* This is a normal
+       multi-line comment spanning
+       several lines */
+
+    /* comment with symbols * / inside but not ending the comment */
+
+    // comment with special chars: !@#$%^&*()[]
+
+    /* tricky multi-line with stars **** still continuing until end */
+
+    /* multi-line with single-line marker // inside */
+
+    int a = 10; /* inline multi-line comment */ int b = 20;
+
+    ////////// multiple slashes treated as single-line comment
+
+    /* an * at the end * */ // ends here
+
+    /* multi-line comment starts here
+    int x = 100;
+    // attempt: / * mistaken comment start
+    / * a real comment * /
+
+  

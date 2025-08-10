@@ -1,0 +1,47 @@
+
+
+  float normalFloat = 1.23e+10f;
+    double noDecimal = 123e-2;
+    long double hexFloat = 0x1.fp3L;
+    double f1 = 0.5;
+    double f2 = .5;
+    double f3 = 1.0;
+    double f4 = 10.;
+    double f5 = 3.14159f;
+    double f6 = 2.5L;
+    double f7 = -0.5;
+    double f8 = -10.25f;
+    double f9 = 1e10;
+    double f10 = 1.5e-3;
+    double f11 = -2E4;
+    double f12 = 3e+5f;
+    double f13 = 0e0;
+    double f14 = 123E2L;
+    double f_err1 = .;
+    double f_err2 = 1.e;
+    double f_err3 = 1.0e;
+    double f_err4 = 1.0fL;
+    double f_err5= .e6;
+
+    int i1 = 0;
+    int i2 = 1;
+    int i3 = 123;
+    int i4 = - 42;
+    unsigned i5 = 42u;
+    long i6 = 99l;
+    unsigned long i7 = 123UL;
+    long long i8 = -456LL;
+    unsigned long long i9 = 789ull;
+ 
+    int e1 = 00;
+    int e2 = 01;
+    int e3= --5;
+    int e5 = 123abc;
+    int e6 = 42luu;
+    int e7 = 5ullL;
+    int e8 = -;
+    int e9 = -u;
+    int e10 = 5uul;
+
+
+

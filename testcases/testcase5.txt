@@ -1,2 +1,41 @@
-return result * 42 else
+#include<stdio.h>
+#include      <algorithm>
+    #definePI 3.14             
+#     include    <math.h>
+#    include<math.h>    
+int main() {
+    int a = 1, b = 2, c = 3;
+    a++;
+    b--;
+    c += a;
+    b /= 3;
+    a %= b;
+    a <<= 2;
+    if (a == b) c = 0;
+    if (a >= b) c = 2;
+    if (a && b) c = 4;
+    a &= b;
+    a |= b;
+    a ^= b;
+    a = +b;
+    a -= b;
+    a = ~b;
+    int x = a ? b : c;
+    ns::val = obj.method();
+    obj.ptr->field = 10;
+    void func(int x, int y, ...);
+    foo(...);
+    val = 1.5;
+    val = .5;
+    val = 5.;
+    if (a..b) c = 10;
+    if (a....b) c = 11;
+    ns:::id = 10;
+    inc++var;
+    isEqual==check;
+    val= a+++b;
+    int bad#char = 5;
+    string unterminated = "oops;
+    char badChar = 'aa';
+}
 
