@@ -1,0 +1,2 @@
+return result * 42 else
+
