@@ -5,4 +5,3 @@ for testfile in testcases/*; do
     echo "Test case: $testfile"
     ./lexer < "$testfile"
 done
-
