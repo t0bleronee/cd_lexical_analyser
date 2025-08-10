@@ -7,4 +7,3 @@ lexer: src/lexer.l
 
 clean:
 	rm -f lexer src/lexer.cpp
-
